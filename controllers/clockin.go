@@ -17,7 +17,7 @@ type ResultController struct {
 }
 
 func (c *ClockinController) Get() {
-	qrcode.WriteFile("http://starguard.cn:8080/clockin/login",qrcode.Medium,256,"../static/img/qrcode.png")
+	qrcode.WriteFile("http://starguard.cn:8080/clockin/login",qrcode.Medium,256,"/root/gopath/src/beegoapp/clockin/static/img/qrcode.png")
 	m := models.GetQrcodeInfo()
 	c.Data["Imgurl"] = m.Url
 	c.TplName = "clockin.tpl"
