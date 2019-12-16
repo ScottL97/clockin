@@ -2,7 +2,7 @@ package controllers
 
 import (
 	"github.com/astaxie/beego"
-	"beegoapp/hellobeego/models"
+	"beegoapp/clockin/models"
 	"github.com/skip2/go-qrcode"
 )
 

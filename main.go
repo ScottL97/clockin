@@ -1,7 +1,7 @@
 package main
 
 import (
-	_ "beegoapp/hellobeego/routers"
+	_ "beegoapp/clockin/routers"
 	"github.com/astaxie/beego"
 )
 

@@ -1,7 +1,7 @@
 package routers
 
 import (
-	"beegoapp/hellobeego/controllers"
+	"beegoapp/clockin/controllers"
 	"github.com/astaxie/beego"
 )
 
